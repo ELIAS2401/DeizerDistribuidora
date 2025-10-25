@@ -3,7 +3,7 @@
   "Id": 1,
   "Producto": "Cinta Aisladora Tacsa",
   "Tipo": "10m",
-  "Precio": "599",
+  "Precio": 599,
   "Categoría": "Cintas",
   "Img": "cinta.jpeg"
  },
@@ -11,7 +11,7 @@
   "Id": 2,
   "Producto": "Cinta Aisladora Tacsa",
   "Tipo": "20m",
-  "Precio": "1099",
+  "Precio": 1099,
   "Categoría": "Cintas",
   "Img": "cinta.jpeg"
  },
@@ -19,7 +19,7 @@
   "Id": 3,
   "Producto": "CINTA DE\nEMBALAR SIGMA",
   "Tipo": "48x40mts",
-  "Precio": "792",
+  "Precio": 792,
   "Categoría": "Cintas",
   "Img": "cintaSigma.jpeg"
  },
@@ -27,7 +27,7 @@
   "Id": 4,
   "Producto": "CINTA DE\nTEFLON LUXON",
   "Tipo": "1\/2x10mts",
-  "Precio": "276",
+  "Precio": 276,
   "Categoría": "Cintas",
   "Img": "cintaTeflonLuxon.png"
  },
@@ -35,7 +35,7 @@
   "Id": 5,
   "Producto": "CINTA DE\nTEFLON LUXON",
   "Tipo": "3\/4x10mts",
-  "Precio": "398",
+  "Precio": 398,
   "Categoría": "Cintas",
   "Img": "cintaTeflonLuxon.png"
  },
@@ -82,7 +82,7 @@
   "Id": 10,
   "Producto": "MANGUERAS PARA GAS APROBADA",
   "Tipo": "x 25mts",
-  "Precio": "$ 17.771",
+  "Precio": 17771,
   "PrecioConDescuento": "5% de\ndescuento por\npago contado",
   "Categoría": "Mangueras",
   "Img": "mangueraGas.jpg"
@@ -684,198 +684,221 @@
   "Id": 83,
   "Producto": "punta mecha",
   "Tipo": 0.5,
-  "Precio": "12.44",
+  "Precio": 12.44,
+  "PrecioTotal": 2488,
   "Categoría": "BULONERA",
   "Img": "puntaMecha.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200,
+  "Column12": 2488
  },
  {
   "Id": 84,
   "Producto": "punta mecha",
   "Tipo": 0.75,
-  "Precio": "15.15",
+  "Precio": 15.15,
+  "PrecioTotal": 3030,
   "Categoría": "BULONERA",
   "Img": "puntaMecha.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200
  },
  {
   "Id": 85,
   "Producto": "punta mecha",
   "Tipo": 1,
-  "Precio": "17.72",
+  "Precio": 17.72,
+  "PrecioTotal": 3544,
   "Categoría": "BULONERA",
   "Img": "puntaMecha.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200
  },
  {
   "Id": 86,
   "Producto": "driwal",
   "Tipo": 0.625,
-  "Precio": "7.53",
+  "Precio": 7.53,
+  "PrecioTotal": 2259,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 87,
   "Producto": "driwal",
   "Tipo": 0.75,
-  "Precio": "7.73",
+  "Precio": 7.73,
+  "PrecioTotal": 2319,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 88,
   "Producto": "driwal",
   "Tipo": 1,
-  "Precio": "9.25",
+  "Precio": 9.25,
+  "PrecioTotal": 2775,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 89,
   "Producto": "driwal",
   "Tipo": "1.1\/4",
-  "Precio": "11.10",
+  "Precio": 11.1,
+  "PrecioTotal": 3330,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 90,
   "Producto": "driwal",
   "Tipo": "1.1\/2",
-  "Precio": "13.02",
+  "Precio": 13.02,
+  "PrecioTotal": 3906,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 91,
   "Producto": "driwal",
   "Tipo": 2,
-  "Precio": "16.53",
+  "Precio": 16.53,
+  "PrecioTotal": 4959,
   "Categoría": "BULONERA",
   "Img": "driwal.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 92,
   "Producto": "fix",
   "Tipo": "4x35",
-  "Precio": "14.24",
+  "Precio": 14.24,
+  "PrecioTotal": 2848,
   "Categoría": "BULONERA",
   "Img": "fix.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200
  },
  {
   "Id": 93,
   "Producto": "fix",
   "Tipo": "5x50",
-  "Precio": "30.10",
+  "Precio": 30.1,
+  "PrecioTotal": 6020,
   "Categoría": "BULONERA",
   "Img": "fix.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200
  },
  {
   "Id": 94,
   "Producto": "fix",
   "Tipo": "6x60",
+  "PrecioTotal": 0,
   "Categoría": "BULONERA",
   "Img": "fix.jpg",
-  "Descripción": "200 unidades"
+  "Unidades": 200
  },
  {
   "Id": 95,
   "Producto": "tarugo estandar",
   "Tipo": "6mm",
-  "Precio": "5.73",
+  "Precio": 5.73,
+  "PrecioTotal": 1719.00,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 96,
   "Producto": "tarugo estandar",
   "Tipo": "8mm",
-  "Precio": "10.32",
+  "Precio": 10.32,
+  "PrecioTotal": 3096,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 97,
   "Producto": "tarugo estandar",
   "Tipo": "10mm",
-  "Precio": "21.82",
+  "Precio": 21.82,
+  "PrecioTotal": 6546,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 98,
   "Producto": "tarugo con tope",
   "Tipo": "6mm",
-  "Precio": "6.82",
+  "Precio": 6.82,
+  "PrecioTotal": 2046,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 99,
   "Producto": "tarugo con tope",
   "Tipo": "8mm",
-  "Precio": "11.63",
+  "Precio": 11.63,
+  "PrecioTotal": 3489.0000000000005,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 100,
   "Producto": "tarugo con tope",
   "Tipo": "10mm",
-  "Precio": "22.97",
+  "Precio": 22.97,
+  "PrecioTotal": 6891,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 101,
   "Producto": "tarugo espiga",
   "Tipo": "6mm",
-  "Precio": "10.57",
+  "Precio": 10.57,
+  "PrecioTotal": 3171,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 102,
   "Producto": "tarugo espiga",
   "Tipo": "8mm",
-  "Precio": "20.44",
+  "Precio": 20.44,
+  "PrecioTotal": 6132,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "300 unidades"
+  "Unidades": 300
  },
  {
   "Id": 103,
   "Producto": "tarugo espiga",
   "Tipo": "10mm",
-  "Precio": "42.88",
+  "Precio": 42.88,
+  "PrecioTotal": 10720,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "250 unid"
+  "Unidades": 250
  },
  {
   "Id": 104,
   "Producto": "tarugo estandar",
   "Tipo": "12mm",
-  "Precio": "39.82",
+  "Precio": 39.82,
+  "PrecioTotal": 9955,
   "Categoría": "BULONERA",
   "Img": "tarugos.jpg",
-  "Descripción": "250 unid"
+  "Unidades": 250
  },
  {
   "Id": 105,
@@ -1039,7 +1062,7 @@
   "Precio": 717.19,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "colaVinilica.jpg"
+  "Img": "colaVinilica.jpg"
  },
  {
   "Id": 124,
@@ -1048,7 +1071,7 @@
   "Precio": 1213.71,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "colaVinilica.jpg"
+  "Img": "colaVinilica.jpg"
  },
  {
   "Id": 125,
@@ -1057,7 +1080,7 @@
   "Precio": 2317.09,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "colaVinilica.jpg"
+  "Img": "colaVinilica.jpg"
  },
  {
   "Id": 126,
@@ -1066,7 +1089,7 @@
   "Precio": 2758,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "cementoContacto.jpg"
+  "Img": "cementoContacto.jpg"
  },
  {
   "Id": 127,
@@ -1075,7 +1098,7 @@
   "Precio": 4965,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "cementoContacto.jpg"
+  "Img": "cementoContacto.jpg"
  },
  {
   "Id": 128,
@@ -1084,7 +1107,7 @@
   "Precio": 8275,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "cementoContacto.jpg"
+  "Img": "cementoContacto.jpg"
  },
  {
   "Id": 129,
@@ -1093,7 +1116,7 @@
   "Precio": 1765,
   "Categoría": "PEGAMENTOS",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
-  "Descripción": "cementoContacto.jpg"
+  "Img": "cementoContacto.jpg"
  },
  {
   "Id": 130,
