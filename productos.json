@@ -685,220 +685,219 @@
         "Producto": "punta mecha",
         "Tipo": 0.5,
         "Precio": 12.44,
-        "PrecioTotal": 2488,
+        "PrecioTotalBulto": 2488,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "puntaMecha.jpg",
-        "Unidades": 200,
-        "Column12": 2488
+        "Img": "puntaMecha.jpg"
     },
     {
         "Id": 84,
         "Producto": "punta mecha",
         "Tipo": 0.75,
         "Precio": 15.15,
-        "PrecioTotal": 3030,
+        "PrecioTotalBulto": 3030,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "puntaMecha.jpg",
-        "Unidades": 200
+        "Img": "puntaMecha.jpg"
     },
     {
         "Id": 85,
         "Producto": "punta mecha",
         "Tipo": 1,
         "Precio": 17.72,
-        "PrecioTotal": 3544,
+        "PrecioTotalBulto": 3544,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "puntaMecha.jpg",
-        "Unidades": 200
+        "Img": "puntaMecha.jpg"
     },
     {
         "Id": 86,
         "Producto": "driwal",
         "Tipo": 0.625,
         "Precio": 7.53,
-        "PrecioTotal": 2259,
+        "PrecioTotalBulto": 2259,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 87,
         "Producto": "driwal",
         "Tipo": 0.75,
         "Precio": 7.73,
-        "PrecioTotal": 2319,
+        "PrecioTotalBulto": 2319,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 88,
         "Producto": "driwal",
         "Tipo": 1,
         "Precio": 9.25,
-        "PrecioTotal": 2775,
+        "PrecioTotalBulto": 2775,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 89,
         "Producto": "driwal",
         "Tipo": "1.1\/4",
         "Precio": 11.1,
-        "PrecioTotal": 3330,
+        "PrecioTotalBulto": 3330,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 90,
         "Producto": "driwal",
         "Tipo": "1.1\/2",
         "Precio": 13.02,
-        "PrecioTotal": 3906,
+        "PrecioTotalBulto": 3906,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 91,
         "Producto": "driwal",
         "Tipo": 2,
         "Precio": 16.53,
-        "PrecioTotal": 4959,
+        "PrecioTotalBulto": 4959,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "driwal.jpg",
-        "Unidades": 300
+        "Img": "driwal.jpg"
     },
     {
         "Id": 92,
         "Producto": "fix",
         "Tipo": "4x35",
         "Precio": 14.24,
-        "PrecioTotal": 2848,
+        "PrecioTotalBulto": 2848,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "fix.jpg",
-        "Unidades": 200
+        "Img": "fix.jpg"
     },
     {
         "Id": 93,
         "Producto": "fix",
         "Tipo": "5x50",
         "Precio": 30.1,
-        "PrecioTotal": 6020,
+        "PrecioTotalBulto": 6020,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "fix.jpg",
-        "Unidades": 200
+        "Img": "fix.jpg"
     },
     {
         "Id": 94,
         "Producto": "fix",
         "Tipo": "6x60",
-        "PrecioTotal": 0,
+        "PrecioTotalBulto": 0,
+        "UnidadesPorBulto": 200,
         "Categoría": "BULONERA",
-        "Img": "fix.jpg",
-        "Unidades": 200
+        "Img": "fix.jpg"
     },
     {
         "Id": 95,
         "Producto": "tarugo estandar",
         "Tipo": "6mm",
         "Precio": 5.73,
-        "PrecioTotal": 1719.00,
+        "PrecioTotalBulto": 1719.0000000000002,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 96,
         "Producto": "tarugo estandar",
         "Tipo": "8mm",
         "Precio": 10.32,
-        "PrecioTotal": 3096,
+        "PrecioTotalBulto": 3096,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 97,
         "Producto": "tarugo estandar",
         "Tipo": "10mm",
         "Precio": 21.82,
-        "PrecioTotal": 6546,
+        "PrecioTotalBulto": 6546,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 98,
         "Producto": "tarugo con tope",
         "Tipo": "6mm",
         "Precio": 6.82,
-        "PrecioTotal": 2046,
+        "PrecioTotalBulto": 2046,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 99,
         "Producto": "tarugo con tope",
         "Tipo": "8mm",
         "Precio": 11.63,
-        "PrecioTotal": 3489.0000000000005,
+        "PrecioTotalBulto": 3489.0000000000005,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 100,
         "Producto": "tarugo con tope",
         "Tipo": "10mm",
         "Precio": 22.97,
-        "PrecioTotal": 6891,
+        "PrecioTotalBulto": 6891,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 101,
         "Producto": "tarugo espiga",
         "Tipo": "6mm",
         "Precio": 10.57,
-        "PrecioTotal": 3171,
+        "PrecioTotalBulto": 3171,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 102,
         "Producto": "tarugo espiga",
         "Tipo": "8mm",
         "Precio": 20.44,
-        "PrecioTotal": 6132,
+        "PrecioTotalBulto": 6132,
+        "UnidadesPorBulto": 300,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 300
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 103,
         "Producto": "tarugo espiga",
         "Tipo": "10mm",
         "Precio": 42.88,
-        "PrecioTotal": 10720,
+        "PrecioTotalBulto": 10720,
+        "UnidadesPorBulto": 250,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 250
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 104,
         "Producto": "tarugo estandar",
         "Tipo": "12mm",
         "Precio": 39.82,
-        "PrecioTotal": 9955,
+        "PrecioTotalBulto": 9955,
+        "UnidadesPorBulto": 250,
         "Categoría": "BULONERA",
-        "Img": "tarugos.jpg",
-        "Unidades": 250
+        "Img": "tarugos.jpg"
     },
     {
         "Id": 105,
@@ -1296,7 +1295,7 @@
         "Id": 152,
         "Producto": "MEDIA OMEGA",
         "Tipo": 0.625,
-        "Precio": "51.57",
+        "Precio": 51.57,
         "Categoría": "ELECTRICIDAD",
         "Img": "mediaOmega.jpg"
     },
@@ -1304,7 +1303,7 @@
         "Id": 153,
         "Producto": "MEDIA OMEGA",
         "Tipo": 0.75,
-        "Precio": "56.12",
+        "Precio": 56.12,
         "Categoría": "ELECTRICIDAD",
         "Img": "mediaOmega.jpg"
     },
@@ -1312,7 +1311,7 @@
         "Id": 154,
         "Producto": "MEDIA OMEGA",
         "Tipo": 0.875,
-        "Precio": "85.79",
+        "Precio": 85.79,
         "Categoría": "ELECTRICIDAD",
         "Img": "mediaOmega.jpg"
     },
@@ -1320,7 +1319,7 @@
         "Id": 155,
         "Producto": "MEDIA OMEGA",
         "Tipo": "1''",
-        "Precio": "101.93",
+        "Precio": 101.93,
         "Categoría": "ELECTRICIDAD",
         "Img": "mediaOmega.jpg"
     },
@@ -1328,7 +1327,7 @@
         "Id": 156,
         "Producto": "OMEGA",
         "Tipo": 0.625,
-        "Precio": "46.16",
+        "Precio": 46.16,
         "Categoría": "ELECTRICIDAD",
         "Img": "omega.jpg"
     },
@@ -1336,7 +1335,7 @@
         "Id": 157,
         "Producto": "OMEGA",
         "Tipo": 0.75,
-        "Precio": "49.11",
+        "Precio": 49.11,
         "Categoría": "ELECTRICIDAD",
         "Img": "omega.jpg"
     },
@@ -1344,7 +1343,7 @@
         "Id": 158,
         "Producto": "OMEGA",
         "Tipo": 0.875,
-        "Precio": "71.46",
+        "Precio": 71.46,
         "Categoría": "ELECTRICIDAD",
         "Img": "omega.jpg"
     },
@@ -1352,7 +1351,7 @@
         "Id": 159,
         "Producto": "OMEGA",
         "Tipo": "1''",
-        "Precio": "85.03",
+        "Precio": 85.03,
         "Categoría": "ELECTRICIDAD",
         "Img": "omega.jpg"
     },
@@ -1484,555 +1483,557 @@
         "Producto": "YESO TIPO PARIS",
         "Tipo": "1K",
         "Precio": 928.88,
-        "PrecioTotal": 5358.9,
+        "PrecioUnidadxBulto": 893.15,
+        "PrecioTotalBulto": 5358.9,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/yesoParis.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 893.15
+        "Img": "polvos\/yesoParis.jpg"
     },
     {
         "Id": 176,
         "Producto": "YESO TIPO PARIS",
         "Tipo": "2K",
         "Precio": 1820.24,
-        "PrecioTotal": 10501.380000000001,
+        "PrecioUnidadxBulto": 1750.23,
+        "PrecioTotalBulto": 10501.380000000001,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/yesoParis.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1750.23
+        "Img": "polvos\/yesoParis.jpg"
     },
     {
         "Id": 177,
         "Producto": "YESO TIPO PARIS",
         "Tipo": "5K",
         "Precio": 4420.9,
-        "PrecioTotal": 17003.44,
+        "PrecioUnidadxBulto": 4250.86,
+        "PrecioTotalBulto": 17003.44,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/yesoParis.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 4250.86
+        "Img": "polvos\/yesoParis.jpg"
     },
     {
         "Id": 178,
         "Producto": "YESO TIPO PARIS",
         "Tipo": "10K",
         "Precio": 8700.79,
-        "PrecioTotal": 33464.56,
+        "PrecioUnidadxBulto": 8366.14,
+        "PrecioTotalBulto": 33464.56,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/yesoParis.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 8366.14
+        "Img": "polvos\/yesoParis.jpg"
     },
     {
         "Id": 179,
         "Producto": "CEMENTO PORLAND",
         "Tipo": "1K",
         "Precio": 877.23,
-        "PrecioTotal": 5060.94,
+        "PrecioUnidadxBulto": 843.49,
+        "PrecioTotalBulto": 5060.9400000000005,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoPortland.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 843.49
+        "Img": "polvos\/cementoPortland.jpg"
     },
     {
         "Id": 180,
         "Producto": "CEMENTO PORLAND",
         "Tipo": "2K",
         "Precio": 1684.79,
-        "PrecioTotal": 9719.94,
+        "PrecioUnidadxBulto": 1619.99,
+        "PrecioTotalBulto": 9719.94,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoPortland.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1619.99
+        "Img": "polvos\/cementoPortland.jpg"
     },
     {
         "Id": 181,
         "Producto": "CEMENTO PORLAND",
         "Tipo": "5K",
         "Precio": 4141.39,
-        "PrecioTotal": 15928.44,
+        "PrecioUnidadxBulto": 3982.11,
+        "PrecioTotalBulto": 15928.44,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoPortland.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 3982.11
+        "Img": "polvos\/cementoPortland.jpg"
     },
     {
         "Id": 182,
         "Producto": "CEMENTO PORLAND",
         "Tipo": "10K",
         "Precio": 7336.13,
-        "PrecioTotal": 28215.92,
+        "PrecioUnidadxBulto": 7053.98,
+        "PrecioTotalBulto": 28215.92,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoPortland.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 7053.98
+        "Img": "polvos\/cementoPortland.jpg"
     },
     {
         "Id": 183,
         "Producto": "REVOQUE REF",
         "Tipo": "2,5K",
         "Precio": 886.46,
-        "PrecioTotal": 5114.22,
+        "PrecioUnidadxBulto": 852.37,
+        "PrecioTotalBulto": 5114.22,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/revoqueReforzado.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 852.37
+        "Img": "polvos\/revoqueReforzado.jpg"
     },
     {
         "Id": 184,
         "Producto": "REVOQUE REF",
         "Tipo": "5K",
         "Precio": 1579.02,
-        "PrecioTotal": 9109.74,
+        "PrecioUnidadxBulto": 1518.29,
+        "PrecioTotalBulto": 9109.74,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/revoqueReforzado.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1518.29
+        "Img": "polvos\/revoqueReforzado.jpg"
     },
     {
         "Id": 185,
         "Producto": "REVOQUE REF",
         "Tipo": "10K",
         "Precio": 2982.92,
-        "PrecioTotal": 11472.76,
+        "PrecioUnidadxBulto": 2868.19,
+        "PrecioTotalBulto": 11472.76,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/revoqueReforzado.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 2868.19
+        "Img": "polvos\/revoqueReforzado.jpg"
     },
     {
         "Id": 186,
         "Producto": "REVOQUE REF",
         "Tipo": "30K",
         "Precio": 8436.4,
-        "PrecioTotal": 32447.68,
+        "PrecioUnidadxBulto": 8111.92,
+        "PrecioTotalBulto": 32447.68,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/revoqueReforzado.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 8111.92
+        "Img": "polvos\/revoqueReforzado.jpg"
     },
     {
         "Id": 187,
         "Producto": "MEZCLA ADHESIVA",
         "Tipo": "2,5K",
         "Precio": 1647.69,
-        "PrecioTotal": 9505.86,
+        "PrecioUnidadxBulto": 1584.31,
+        "PrecioTotalBulto": 9505.86,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mezclaAdhesiva.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1584.31
+        "Img": "polvos\/mezclaAdhesiva.jpg"
     },
     {
         "Id": 188,
         "Producto": "MEZCLA ADHESIVA",
         "Tipo": "5K",
         "Precio": 3118.51,
-        "PrecioTotal": 17991.420000000002,
+        "PrecioUnidadxBulto": 2998.57,
+        "PrecioTotalBulto": 17991.420000000002,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mezclaAdhesiva.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2998.57
+        "Img": "polvos\/mezclaAdhesiva.jpg"
     },
     {
         "Id": 189,
         "Producto": "MEZCLA ADHESIVA",
         "Tipo": "10K",
         "Precio": 6000.49,
-        "PrecioTotal": 23078.8,
+        "PrecioUnidadxBulto": 5769.7,
+        "PrecioTotalBulto": 23078.8,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mezclaAdhesiva.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 5769.7
+        "Img": "polvos\/mezclaAdhesiva.jpg"
     },
     {
         "Id": 190,
         "Producto": "MEZCLA ADHESIVA",
         "Tipo": "30K",
         "Precio": 12245.46,
-        "PrecioTotal": 47097.92,
+        "PrecioUnidadxBulto": 11774.48,
+        "PrecioTotalBulto": 47097.92,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mezclaAdhesiva.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 11774.48
+        "Img": "polvos\/mezclaAdhesiva.jpg"
     },
     {
         "Id": 191,
         "Producto": "CEMENTO BLANCO",
         "Tipo": "1K",
         "Precio": 1408.71,
-        "PrecioTotal": 8127.18,
+        "PrecioUnidadxBulto": 1354.53,
+        "PrecioTotalBulto": 8127.18,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoBlanco.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1354.53
+        "Img": "polvos\/cementoBlanco.jpg"
     },
     {
         "Id": 192,
         "Producto": "CEMENTO BLANCO",
         "Tipo": "2K",
         "Precio": 2756.83,
-        "PrecioTotal": 15904.8,
+        "PrecioUnidadxBulto": 2650.8,
+        "PrecioTotalBulto": 15904.8,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoBlanco.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2650.8
+        "Img": "polvos\/cementoBlanco.jpg"
     },
     {
         "Id": 193,
         "Producto": "CEMENTO BLANCO",
         "Tipo": "5K",
         "Precio": 6612.6,
-        "PrecioTotal": 25433.08,
+        "PrecioUnidadxBulto": 6358.27,
+        "PrecioTotalBulto": 25433.08,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoBlanco.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 6358.27
+        "Img": "polvos\/cementoBlanco.jpg"
     },
     {
         "Id": 194,
         "Producto": "CEMENTO BLANCO",
         "Tipo": "10K",
         "Precio": 13063.84,
-        "PrecioTotal": 50245.56,
+        "PrecioUnidadxBulto": 12561.39,
+        "PrecioTotalBulto": 50245.56,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoBlanco.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 12561.39
+        "Img": "polvos\/cementoBlanco.jpg"
     },
     {
         "Id": 195,
         "Producto": "CEMENTO RAPIDO GRIS",
         "Tipo": "1K",
         "Precio": 928.1,
-        "PrecioTotal": 5354.4,
+        "PrecioUnidadxBulto": 892.4,
+        "PrecioTotalBulto": 5354.4,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoGris.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 892.4
+        "Img": "polvos\/cementoRapidoGris.jpg"
     },
     {
         "Id": 196,
         "Producto": "CEMENTO RAPIDO GRIS",
         "Tipo": "2K",
         "Precio": 1726.6,
-        "PrecioTotal": 9961.14,
+        "PrecioUnidadxBulto": 1660.19,
+        "PrecioTotalBulto": 9961.14,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoGris.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1660.19
+        "Img": "polvos\/cementoRapidoGris.jpg"
     },
     {
         "Id": 197,
         "Producto": "CEMENTO RAPIDO GRIS",
         "Tipo": "5K",
         "Precio": 4009.59,
-        "PrecioTotal": 15421.48,
+        "PrecioUnidadxBulto": 3855.37,
+        "PrecioTotalBulto": 15421.48,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoGris.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 3855.37
+        "Img": "polvos\/cementoRapidoGris.jpg"
     },
     {
         "Id": 198,
         "Producto": "CEMENTO RAPIDO GRIS",
         "Tipo": "10K",
         "Precio": 7948.5,
-        "PrecioTotal": 30571.16,
+        "PrecioUnidadxBulto": 7642.79,
+        "PrecioTotalBulto": 30571.16,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoGris.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 7642.79
+        "Img": "polvos\/cementoRapidoGris.jpg"
     },
     {
         "Id": 199,
         "Producto": "CEMENTO RAPIDO BLANCO",
         "Tipo": "1K",
         "Precio": 1854.42,
-        "PrecioTotal": 10698.54,
+        "PrecioUnidadxBulto": 1783.09,
+        "PrecioTotalBulto": 10698.539999999999,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoBlanco.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1783.09
+        "Img": "polvos\/cementoRapidoBlanco.jpg"
     },
     {
         "Id": 200,
         "Producto": "CEMENTO RAPIDO BLANCO",
         "Tipo": "2K",
         "Precio": 3458.14,
-        "PrecioTotal": 19950.84,
+        "PrecioUnidadxBulto": 3325.14,
+        "PrecioTotalBulto": 19950.84,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoBlanco.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 3325.14
+        "Img": "polvos\/cementoRapidoBlanco.jpg"
     },
     {
         "Id": 201,
         "Producto": "CEMENTO RAPIDO BLANCO",
         "Tipo": "5K",
         "Precio": 8138.86,
-        "PrecioTotal": 31303.32,
+        "PrecioUnidadxBulto": 7825.83,
+        "PrecioTotalBulto": 31303.32,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoBlanco.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 7825.83
+        "Img": "polvos\/cementoRapidoBlanco.jpg"
     },
     {
         "Id": 202,
         "Producto": "CEMENTO RAPIDO BLANCO",
         "Tipo": "10K",
         "Precio": 16178.96,
-        "PrecioTotal": 62226.8,
+        "PrecioUnidadxBulto": 15556.7,
+        "PrecioTotalBulto": 62226.8,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/cementoRapidoBlanco.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 15556.7
+        "Img": "polvos\/cementoRapidoBlanco.jpg"
     },
     {
         "Id": 203,
         "Producto": "FINO A LA CAL",
         "Tipo": "5K",
         "Precio": 1650.43,
-        "PrecioTotal": 9521.7,
+        "PrecioUnidadxBulto": 1586.95,
+        "PrecioTotalBulto": 9521.7,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/finoALaCal.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1586.95
+        "Img": "polvos\/finoALaCal.jpg"
     },
     {
         "Id": 204,
         "Producto": "FINO A LA CAL",
         "Tipo": "10K",
         "Precio": 2982.43,
-        "PrecioTotal": 17206.32,
+        "PrecioUnidadxBulto": 2867.72,
+        "PrecioTotalBulto": 17206.32,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/finoALaCal.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2867.72
+        "Img": "polvos\/finoALaCal.jpg"
     },
     {
         "Id": 205,
         "Producto": "FINO A LA CAL",
         "Tipo": "30K",
         "Precio": 8420.33,
-        "PrecioTotal": 32385.88,
+        "PrecioUnidadxBulto": 8096.47,
+        "PrecioTotalBulto": 32385.88,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/finoALaCal.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 8096.47
+        "Img": "polvos\/finoALaCal.jpg"
     },
     {
         "Id": 206,
         "Producto": "MIX INTERIOR",
         "Tipo": "0,75K",
         "Precio": 3377.67,
-        "PrecioTotal": 19486.56,
+        "PrecioUnidadxBulto": 3247.76,
+        "PrecioTotalBulto": 19486.56,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixInterior.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 3247.76
+        "Img": "polvos\/mixInterior.jpg"
     },
     {
         "Id": 207,
         "Producto": "MIX INTERIOR",
         "Tipo": "2K",
         "Precio": 6682.25,
-        "PrecioTotal": 38551.44,
+        "PrecioUnidadxBulto": 6425.24,
+        "PrecioTotalBulto": 38551.44,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixInterior.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 6425.24
+        "Img": "polvos\/mixInterior.jpg"
     },
     {
         "Id": 208,
         "Producto": "MIX INTERIOR",
         "Tipo": "5K",
         "Precio": 14112.82,
-        "PrecioTotal": 54280.08,
+        "PrecioUnidadxBulto": 13570.02,
+        "PrecioTotalBulto": 54280.08,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixInterior.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 13570.02
+        "Img": "polvos\/mixInterior.jpg"
     },
     {
         "Id": 209,
         "Producto": "MIX EXTERIOR",
         "Tipo": "0,75K",
         "Precio": 3377.67,
-        "PrecioTotal": 19486.56,
+        "PrecioUnidadxBulto": 3247.76,
+        "PrecioTotalBulto": 19486.56,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixExterior.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 3247.76
+        "Img": "polvos\/mixExterior.jpg"
     },
     {
         "Id": 210,
         "Producto": "MIX EXTERIOR",
         "Tipo": "2K",
         "Precio": 6682.25,
-        "PrecioTotal": 38551.44,
+        "PrecioUnidadxBulto": 6425.24,
+        "PrecioTotalBulto": 38551.44,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixExterior.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 6425.24
+        "Img": "polvos\/mixExterior.jpg"
     },
     {
         "Id": 211,
         "Producto": "MIX EXTERIOR",
         "Tipo": "5K",
         "Precio": 14112.82,
-        "PrecioTotal": 54280.08,
+        "PrecioUnidadxBulto": 13570.02,
+        "PrecioTotalBulto": 54280.08,
+        "UnidadesPorBulto": 4,
         "Categoría": "POLVOS",
-        "Img": "polvos\/mixExterior.jpg",
-        "Unidades": 4,
-        "PrecioBulto": 13570.02
+        "Img": "polvos\/mixExterior.jpg"
     },
     {
         "Id": 212,
         "Producto": "CONCRETO",
         "Precio": 1754.21,
+        "PrecioUnidadxBulto": 1754.21,
+        "UnidadesPorBulto": "x",
         "Categoría": "POLVOS",
-        "Img": "polvos\/concreto.jpg",
-        "PrecioBulto": 1754.21
+        "Img": "polvos\/concreto.jpg"
     },
     {
         "Id": 213,
         "Producto": "CONCRETO",
         "Precio": 3281.33,
+        "PrecioUnidadxBulto": 3281.33,
+        "UnidadesPorBulto": "x",
         "Categoría": "POLVOS",
-        "Img": "polvos\/concreto.jpg",
-        "PrecioBulto": 3281.33
+        "Img": "polvos\/concreto.jpg"
     },
     {
         "Id": 214,
         "Producto": "FERRITE NEGRO",
         "Tipo": "0,5K",
         "Precio": 2833.77,
-        "PrecioTotal": 16348.68,
+        "PrecioUnidadxBulto": 2724.78,
+        "PrecioTotalBulto": 16348.68,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2724.78
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 215,
         "Producto": "FERRITE NEGRO",
         "Tipo": "1K",
         "Precio": 5143.73,
-        "PrecioTotal": 29675.40,
+        "PrecioUnidadxBulto": 4945.9,
+        "PrecioTotalBulto": 29675.399999999998,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 4945.9
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 216,
         "Producto": "FERRITE ROJO",
         "Tipo": "0,5K",
         "Precio": 1532.9,
-        "PrecioTotal": 8843.64,
+        "PrecioUnidadxBulto": 1473.94,
+        "PrecioTotalBulto": 8843.64,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1473.94
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 217,
         "Producto": "FERRITE ROJO",
         "Tipo": "1K",
         "Precio": 2803.15,
-        "PrecioTotal": 16172.04,
+        "PrecioUnidadxBulto": 2695.34,
+        "PrecioTotalBulto": 16172.04,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2695.34
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 218,
         "Producto": "FERRITE AMARILLO",
         "Tipo": "0,5K",
         "Precio": 1802.76,
-        "PrecioTotal": 10400.52,
+        "PrecioUnidadxBulto": 1733.42,
+        "PrecioTotalBulto": 10400.52,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1733.42
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 219,
         "Producto": "FERRITE AMARILLO",
         "Tipo": "1K",
         "Precio": 3315.61,
-        "PrecioTotal": 19128.54,
+        "PrecioUnidadxBulto": 3188.09,
+        "PrecioTotalBulto": 19128.54,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 3188.09
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 220,
         "Producto": "FERRITE AZUL",
         "Tipo": "0,5K",
         "Precio": 2930.49,
-        "PrecioTotal": 16906.68,
+        "PrecioUnidadxBulto": 2817.78,
+        "PrecioTotalBulto": 16906.68,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2817.78
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 221,
         "Producto": "FERRITE AZUL",
         "Tipo": "1K",
         "Precio": 5302.27,
-        "PrecioTotal": 30589.98,
+        "PrecioUnidadxBulto": 5098.33,
+        "PrecioTotalBulto": 30589.98,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 5098.33
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 222,
         "Producto": "FERRITE VERDE",
         "Tipo": "0,5K",
         "Precio": 3044.29,
-        "PrecioTotal": 17563.20,
+        "PrecioUnidadxBulto": 2927.2,
+        "PrecioTotalBulto": 17563.199999999997,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2927.2
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 223,
         "Producto": "FERRITE VERDE",
         "Tipo": "1K",
         "Precio": 5508.17,
-        "PrecioTotal": 31777.86,
+        "PrecioUnidadxBulto": 5296.31,
+        "PrecioTotalBulto": 31777.86,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/ferrites.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 5296.31
+        "Img": "polvos\/ferrites.jpg"
     },
     {
         "Id": 224,
         "Producto": "PASTINA BLANCA",
         "Tipo": "1K",
         "Precio": 1350.77,
-        "PrecioTotal": 7792.92,
+        "PrecioUnidadxBulto": 1298.82,
+        "PrecioTotalBulto": 7792.92,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/pastina.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 1298.82
+        "Img": "polvos\/pastina.jpg"
     },
     {
         "Id": 225,
         "Producto": "PASTINA BLANCA",
         "Tipo": "2K",
         "Precio": 2653.26,
-        "PrecioTotal": 15307.26,
+        "PrecioUnidadxBulto": 2551.21,
+        "PrecioTotalBulto": 15307.26,
+        "UnidadesPorBulto": 6,
         "Categoría": "POLVOS",
-        "Img": "polvos\/pastina.jpg",
-        "Unidades": 6,
-        "PrecioBulto": 2551.21
+        "Img": "polvos\/pastina.jpg"
     },
     {
         "Id": 226,
