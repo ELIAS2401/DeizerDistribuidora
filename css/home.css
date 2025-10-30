@@ -54,3 +54,9 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
+.card-img-top {
+  height: 220px !important;
+  object-fit: scale-down!important;
+  background-color: #fff !important;
+  padding: 8px !important;
+}

@@ -1,5 +1,5 @@
 // ✅ NÚMERO DE WHATSAPP
-const numeroWpp = "5491169390101";
+const numeroWpp = "5491136721854";
 
 // ✅ ELEMENTOS DEL DOM
 const contenedor = document.getElementById("productos");
@@ -44,6 +44,7 @@ function mostrarProductos(filtro = "all") {
       `<option value="${p.Id}" 
       data-precio="${p.Precio}" 
       data-preciototal="${p.PrecioTotal || ''}" 
+      data-preciobulto="${p.PrecioBulto || ''}"
       data-unidades="${p.Unidades || ''}">
       ${p.Tipo || "Único tipo"}
     </option>`
@@ -58,9 +59,9 @@ function mostrarProductos(filtro = "all") {
     let precioHTML = "";
     if (prodBase.PrecioTotal) {
       precioHTML = `
-      <p class="fw-bold mb-1 text-success">Precio de ud por bulto: $${prodBase.PrecioBulto}</p>
+      <p class="fw-bold mb-1 text-success">Precio por bulto: $${prodBase.PrecioBulto} c/u</p>
+      ${prodBase.Unidades ? `<p class="text-muted small mb-2">(Trae ${prodBase.Unidades} unidades por bulto)</p>` : ""}
       <p class="text-muted small mb-1">Precio por unidad: $${prodBase.Precio}</p>
-      ${prodBase.Unidades ? `<p class="text-muted small mb-2">Trae ${prodBase.Unidades} unidades por</p>` : ""}
     `;
     } else {
       precioHTML = `<p class="fw-bold mb-2 text-success">Precio: $${prodBase.Precio}</p>`;
@@ -103,6 +104,31 @@ function mostrarProductos(filtro = "all") {
 
     const select = card.querySelector(".tipo-select");
     const btn = card.querySelector(".agregar-carrito");
+    // ✅ Cuando cambia el tipo, actualiza los precios mostrados
+    select.addEventListener("change", e => {
+      const opt = e.target.selectedOptions[0];
+      const precioUnidad = parseFloat(opt.dataset.precio) || 0;
+      const precioBulto = parseFloat(opt.dataset.preciobulto) || 0; // 👈 nuevo
+      const precioTotal = parseFloat(opt.dataset.preciototal) || 0;
+      const unidades = parseInt(opt.dataset.unidades) || 0;
+      const zonaPrecio = card.querySelector(".zona-precio");
+
+      // Mostrar correctamente los precios
+      if (precioBulto > 0) {
+        zonaPrecio.innerHTML = `
+      <p class="fw-bold mb-1 text-success">Precio por bulto: $${precioBulto} c/u</p>
+      ${unidades ? `<p class="text-muted small mb-2">(Trae ${unidades} unidades por bulto)</p>` : ""}
+      <p class="text-muted small mb-1">Precio por unidad: $${precioUnidad}</p>
+    `;
+      } else if (precioTotal > 0) {
+        zonaPrecio.innerHTML = `
+      <p class="fw-bold mb-2 text-success">Precio total: $${precioTotal}</p>
+      <p class="text-muted small mb-1">Precio por unidad: $${precioUnidad}</p>
+    `;
+      } else {
+        zonaPrecio.innerHTML = `<p class="fw-bold mb-2 text-success">Precio: $${precioUnidad}</p>`;
+      }
+    });
 
     btn.addEventListener("click", () => {
       const opt = select.selectedOptions[0];
@@ -141,15 +167,6 @@ filterButtons.forEach(btn => {
 });
 
 // ✅ CARRITO
-// function agregarAlCarrito(prod) {
-//   const existente = carrito.find(p => p.Id === prod.Id);
-//   if (existente) {
-//     existente.cantidad += prod.cantidad;
-//   } else {
-//     carrito.push({ ...prod });
-//   }
-//   actualizarCarrito();
-// }
 function agregarAlCarrito(prod) {
   const existente = carrito.find(p => p.Id === prod.Id);
   const unidadesPorBulto = parseInt(prod.Unidades) || 0;
@@ -187,12 +204,19 @@ function agregarAlCarrito(prod) {
   }
   // Caso normal (productos comunes)
   else {
-    if (existente) {
-      existente.cantidad += prod.cantidad;
-    } else {
-      carrito.push({ ...prod });
-    }
+  const precio = parseFloat(prod.PrecioTotal || prod.PrecioBulto || prod.Precio) || 0;
+  const productoNormal = {
+    ...prod,
+    tipoVenta: "unidad",
+    precioAplicado: precio
+  };
+
+  if (existente) {
+    existente.cantidad += prod.cantidad;
+  } else {
+    carrito.push(productoNormal);
   }
+}
 
   actualizarCarrito();
 }
@@ -266,89 +290,17 @@ function actualizarCarrito() {
 
   const mensaje = carrito
     .map(p => {
-      const precioUnitario = p.PrecioTotal || p.Precio;
-      return `- ${p.Producto} (${p.Tipo || "Único"}) x${p.cantidad} = $${(
+      const tipoCompra = p.tipoVenta ? p.tipoVenta.toUpperCase() : "UNIDAD";
+      const precioUnitario = p.precioAplicado || p.PrecioTotal || p.Precio;
+
+      return `- ${p.Producto} (${p.Tipo || "Único"}) • ${tipoCompra} x${p.cantidad} = $${(
         precioUnitario * p.cantidad
       ).toFixed(2)}`;
     })
     .join("%0A");
 
+
   btnWpp.href = `https://wa.me/${numeroWpp}?text=Hola!%20Quiero%20pedir:%0A${mensaje}%0A%0ATotal:%20$${total.toFixed(
     2
   )}`;
 }
-
-// function actualizarCarrito() {
-//   listaCarrito.innerHTML = "";
-//   let total = 0;
-
-//   carrito.forEach((p, i) => {
-//     const subtotal = p.Precio * p.cantidad;
-//     total += subtotal;
-
-//     const li = document.createElement("li");
-//     li.classList.add(
-//       "list-group-item",
-//       "d-flex",
-//       "justify-content-between",
-//       "align-items-center",
-//       "flex-wrap"
-//     );
-
-//     li.innerHTML = `
-//       <div>
-//         <strong>${p.Producto}</strong> (${p.Tipo || "Único"})<br>
-//         <small>$${p.Precio} c/u</small>
-//       </div>
-//       <div class="d-flex align-items-center gap-2">
-//         <button class="btn btn-sm btn-outline-secondary restar">-</button>
-//         <input type="number" min="1" value="${p.cantidad}"
-//                class="form-control form-control-sm cantidad-carrito" style="width:60px;">
-//         <button class="btn btn-sm btn-outline-secondary sumar">+</button>
-//         <button class="btn btn-sm btn-danger eliminar"><i class="bi bi-trash"></i></button>
-//       </div>
-//     `;
-
-//     li.querySelector(".sumar").addEventListener("click", () => {
-//       p.cantidad++;
-//       actualizarCarrito();
-//     });
-
-//     li.querySelector(".restar").addEventListener("click", () => {
-//       p.cantidad--;
-//       if (p.cantidad < 1) carrito.splice(i, 1);
-//       actualizarCarrito();
-//     });
-
-//     li.querySelector(".cantidad-carrito").addEventListener("input", e => {
-//       const nuevaCantidad = parseInt(e.target.value);
-//       if (!isNaN(nuevaCantidad) && nuevaCantidad > 0) {
-//         p.cantidad = nuevaCantidad;
-//         actualizarCarrito();
-//       }
-//     });
-
-//     li.querySelector(".eliminar").addEventListener("click", () => {
-//       carrito.splice(i, 1);
-//       actualizarCarrito();
-//     });
-
-//     listaCarrito.appendChild(li);
-//   });
-
-//   totalCarrito.textContent = total.toFixed(2);
-//   contador.textContent = carrito.reduce((acc, p) => acc + p.cantidad, 0);
-
-//   const mensaje = carrito
-//     .map(
-//       p =>
-//         `- ${p.Producto} (${p.Tipo || "Único"}) x${p.cantidad} = $${(
-//           p.Precio * p.cantidad
-//         ).toFixed(2)}`
-//     )
-//     .join("%0A");
-
-//   btnWpp.href = `https://wa.me/${numeroWpp}?text=Hola!%20Quiero%20pedir:%0A${mensaje}%0A%0ATotal:%20$${total.toFixed(
-//     2
-//   )}`;
-// }
