@@ -2254,7 +2254,7 @@
  {
   "Id": 253,
   "Producto": "espiga ½ rosca hembra",
-  "Tipo": 0.75,
+  "Tipo": "a 3\/4",
   "Precio": 199.11,
   "Categoría": "POLIETILENO",
   "Img": "polietileno\/ESPIGA 1-2 ROSCA HEMBRA.JPG"
@@ -2262,7 +2262,7 @@
  {
   "Id": 254,
   "Producto": "espiga ½ rosca macho",
-  "Tipo": 0.5,
+  "Tipo": "a 1\/2",
   "Precio": 236.43,
   "Categoría": "POLIETILENO",
   "Img": "polietileno\/ESPIGA 1-2 ROSCA MACHO.jpg"
@@ -2270,7 +2270,7 @@
  {
   "Id": 255,
   "Producto": "espiga ½ rosca hembra",
-  "Tipo": 0.5,
+  "Tipo": "a 1\/2",
   "Precio": 70.51,
   "Categoría": "POLIETILENO",
   "Img": "polietileno\/ESPIGA 1-2 ROSCA HEMBRA.JPG"
@@ -2278,7 +2278,7 @@
  {
   "Id": 256,
   "Producto": "espiga ½ rosca macho",
-  "Tipo": 0.75,
+  "Tipo": "a 3\/4",
   "Precio": 236.43,
   "Categoría": "POLIETILENO",
   "Img": "polietileno\/ESPIGA 1-2 ROSCA MACHO.jpg"
