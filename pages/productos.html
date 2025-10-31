@@ -59,6 +59,11 @@
     .btn-wpp {
       background-color: #25D366;
     }
+
+    #buscador:focus {
+      border-color: #ff0000 !important;
+      box-shadow: 0 0 5px rgba(255, 0, 0, 0.6) !important;
+    }
   </style>
 </head>
 
@@ -88,6 +93,10 @@
   <section class="container my-5">
     <h2 class="text-center mb-4">Nuestros Productos</h2>
 
+    <!-- Buscador -->
+    <div class="d-flex justify-content-center mb-4">
+      <input type="text" id="buscador" class="form-control w-50" placeholder="Buscar producto...">
+    </div>
     <!-- Botones de filtro -->
     <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
       <button class="btn btn-outline-danger filter-btn active" data-filter="all">Todos</button>
@@ -99,10 +108,9 @@
       <button class="btn btn-outline-danger filter-btn" data-filter="sanitario">Sanitario</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="electricidad">Electricidad</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="jardin">Jardin</button>
-      <button class="btn btn-outline-danger filter-btn" data-filter="pintura">Pintura</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="bulonera">Bulonera</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="pegamentos">Pegamentos</button>
-      <button class="btn btn-outline-danger filter-btn" data-filter="ferretera">Ferretera</button>
+      <button class="btn btn-outline-danger filter-btn" data-filter="ferreteria">Ferreteria</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="gas">Gas</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="herrajes">Herrajes</button>
       <button class="btn btn-outline-danger filter-btn" data-filter="polvos">Polvos</button>

@@ -431,7 +431,7 @@
   "Producto": "enduido 1lt",
   "Tipo": "x 12unid",
   "Precio": 2900,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "enduido.jpg"
  },
@@ -440,7 +440,7 @@
   "Producto": "enduido 1lt",
   "Tipo": "x 24unid",
   "Precio": 2693,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "enduido.jpg"
  },
@@ -448,7 +448,7 @@
   "Id": 55,
   "Producto": "enduido 4lt",
   "Precio": 7567,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "enduido.jpg"
  },
  {
@@ -456,7 +456,7 @@
   "Producto": "latex interior",
   "Tipo": "1lts",
   "Precio": 2825,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "latex.jpg"
  },
  {
@@ -464,7 +464,7 @@
   "Producto": "latex interior",
   "Tipo": "4lts",
   "Precio": 8982,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "latex.jpg"
  },
  {
@@ -472,7 +472,7 @@
   "Producto": "latex interior",
   "Tipo": "10lts",
   "Precio": 19961,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "latex.jpg"
  },
  {
@@ -480,7 +480,7 @@
   "Producto": "latex interior",
   "Tipo": "20lts",
   "Precio": 30503,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "latex.jpg"
  },
  {
@@ -488,7 +488,7 @@
   "Producto": "fijador",
   "Tipo": "1lts",
   "Precio": 2952,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "fijador.jpg"
  },
  {
@@ -496,7 +496,7 @@
   "Producto": "pincel",
   "Tipo": 7,
   "Precio": 583.42,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -505,7 +505,7 @@
   "Producto": "pincel",
   "Tipo": 10,
   "Precio": 617.76,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -514,7 +514,7 @@
   "Producto": "pincel",
   "Tipo": 15,
   "Precio": 780.3,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -523,7 +523,7 @@
   "Producto": "pincel",
   "Tipo": 20,
   "Precio": 928.26,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -532,7 +532,7 @@
   "Producto": "pincel",
   "Tipo": 25,
   "Precio": 1150,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -541,7 +541,7 @@
   "Producto": "pincel",
   "Tipo": 30,
   "Precio": 1405,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "pincel.jpg"
  },
@@ -550,7 +550,7 @@
   "Producto": "mini funda",
   "Tipo": 5,
   "Precio": 455,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "funda.jpg",
   "Descripción": "5% de descuento por 6 docesnas surtidas"
@@ -560,7 +560,7 @@
   "Producto": "mini funda",
   "Tipo": 8,
   "Precio": 487,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "funda.jpg",
   "Descripción": "5% de descuento por 6 docesnas surtidas"
@@ -570,7 +570,7 @@
   "Producto": "mini funda",
   "Tipo": 11,
   "Precio": 533,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "funda.jpg",
   "Descripción": "5% de descuento por 6 docesnas surtidas"
@@ -580,7 +580,7 @@
   "Producto": "epoxi",
   "Tipo": 5,
   "Precio": 468,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA"
  },
  {
@@ -588,7 +588,7 @@
   "Producto": "epoxi",
   "Tipo": 8,
   "Precio": 520,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA"
  },
  {
@@ -596,7 +596,7 @@
   "Producto": "epoxi",
   "Tipo": 11,
   "Precio": 572,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA"
  },
  {
@@ -604,7 +604,7 @@
   "Producto": "rodillo simil lana",
   "Tipo": 22,
   "Precio": 2250,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "rodilloSimilLana.jpg"
  },
  {
@@ -612,7 +612,7 @@
   "Producto": "rodillo lana larga",
   "Tipo": 22,
   "Precio": 4320,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "rodilloLana.jpg"
  },
  {
@@ -620,28 +620,28 @@
   "Producto": "rodillo antigota",
   "Tipo": 22,
   "Precio": 3500,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "rodilloAntigota.jpg"
  },
  {
   "Id": 76,
   "Producto": "bandeja jr plana",
   "Precio": 368,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "bandejas.jpg"
  },
  {
   "Id": 77,
   "Producto": "bandeja plana",
   "Precio": 931,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "bandejas.jpg"
  },
  {
   "Id": 78,
   "Producto": "bandeja de colgar",
   "Precio": 870,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "bandejas.jpg"
  },
  {
@@ -649,7 +649,7 @@
   "Producto": "cubeta",
   "Tipo": "12lt",
   "Precio": 1988,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Img": "bandejas.jpg"
  },
  {
@@ -657,7 +657,7 @@
   "Producto": "carton 90cmx20mts unidad",
   "Tipo": "1 unidad",
   "Precio": 4689,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "carton.jpg",
   "Descripción": "consultar descuento a partir de 100 unidades"
@@ -667,7 +667,7 @@
   "Producto": "carton 90cmx20mts unidad",
   "Tipo": "4 unidades",
   "Precio": 4575,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "carton.jpg"
  },
@@ -676,7 +676,7 @@
   "Producto": "carton 90cmx20mts unidad",
   "Tipo": "6 unidades",
   "Precio": 4428,
-  "Categoría": "PINTURA",
+  "Categoría": "PINTURERIA",
   "Notas": "DSTO EXTRA SOLO APLICABLE EN PRONTO PAGO Y CTA AL DIA",
   "Img": "carton.jpg"
  },
@@ -1122,7 +1122,7 @@
   "Producto": "GRASA LITIO",
   "Tipo": "100G",
   "Precio": 1315,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1130,7 +1130,7 @@
   "Producto": "GRASA LITIO",
   "Tipo": "250G",
   "Precio": 2946,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1138,7 +1138,7 @@
   "Producto": "GRASA LITIO",
   "Tipo": "500G",
   "Precio": 5565,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1146,7 +1146,7 @@
   "Producto": "GRASA LITIO",
   "Tipo": "1G",
   "Precio": 10422,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1154,7 +1154,7 @@
   "Producto": "GRASA GRAFITADA",
   "Tipo": "100G",
   "Precio": 1253,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1162,7 +1162,7 @@
   "Producto": "GRASA GRAFITADA",
   "Tipo": "250G",
   "Precio": 2794,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1170,7 +1170,7 @@
   "Producto": "GRASA AMARILLA",
   "Tipo": "100G",
   "Precio": 1094,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1178,7 +1178,7 @@
   "Producto": "ACEITERA",
   "Tipo": "100CM",
   "Precio": 374,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1186,7 +1186,7 @@
   "Producto": "GRASA LITIO AEROSOL",
   "Tipo": "250CC",
   "Precio": 3201,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1194,7 +1194,7 @@
   "Producto": "LUBRICANTE",
   "Tipo": "250CC",
   "Precio": 2462,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1202,7 +1202,7 @@
   "Producto": "LUBRICANTE",
   "Tipo": "440CC",
   "Precio": 2861,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1210,7 +1210,7 @@
   "Producto": "PULVERIZADOR",
   "Tipo": "500G",
   "Precio": 1134,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -1218,7 +1218,7 @@
   "Producto": "PULVERIZADOR",
   "Tipo": "1000G",
   "Precio": 1391,
-  "Categoría": "FERRETERA",
+  "Categoría": "FERRETERIA",
   "Img": "grasas.jpg"
  },
  {
@@ -2254,76 +2254,76 @@
  {
   "Id": 253,
   "Producto": "espiga ½ rosca hembra",
-  "Tipo": 0.75,
+  "Tipo": "a 3\/4",
   "Precio": 199.11,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA HEMBRA.JPG"
+  "Img": "polietileno\/ESPIGA1-2ROSCAHEMBRA.JPG"
  },
  {
   "Id": 254,
   "Producto": "espiga ½ rosca macho",
-  "Tipo": 0.5,
+  "Tipo": "a 1\/2",
   "Precio": 236.43,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA MACHO.jpg"
+  "Img": "polietileno\/ESPIGA1-2ROSCAMACHO.jpg"
  },
  {
   "Id": 255,
   "Producto": "espiga ½ rosca hembra",
-  "Tipo": 0.5,
+  "Tipo": "a 1\/2",
   "Precio": 70.51,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA HEMBRA.JPG"
+  "Img": "polietileno\/ESPIGA1-2ROSCAHEMBRA.JPG"
  },
  {
   "Id": 256,
   "Producto": "espiga ½ rosca macho",
-  "Tipo": 0.75,
+  "Tipo": "a 3\/4",
   "Precio": 236.43,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA MACHO.jpg"
+  "Img": "polietileno\/ESPIGA1-2ROSCAMACHO.jpg"
  },
  {
   "Id": 257,
   "Producto": "espiga ¾ rosca hembra",
   "Precio": 197.26,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA HEMBRA.JPG"
+  "Img": "polietileno\/ESPIGA1-2ROSCAHEMBRA.JPG"
  },
  {
   "Id": 258,
   "Producto": "espiga ¾ rosca macho",
   "Precio": 111.99,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA 1-2 ROSCA MACHO.jpg"
+  "Img": "polietileno\/ESPIGA1-2ROSCAMACHO.jpg"
  },
  {
   "Id": 259,
   "Producto": "espiga codo ½ rca hembra",
   "Precio": 176.3,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO HEMBRA 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODOHEMBRA1-2.jpg"
  },
  {
   "Id": 260,
   "Producto": "espiga codo ½ R\/macho",
   "Precio": 207.41,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO MACHO 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODOMACHO1-2.jpg"
  },
  {
   "Id": 261,
   "Producto": "espiga codo 3\/4 R\/macho",
   "Precio": 377.05,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO MACHO 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODOMACHO1-2.jpg"
  },
  {
   "Id": 262,
   "Producto": "espiga codo 3\/4 R\/hembra",
   "Precio": 321.47,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO HEMBRA 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODOHEMBRA1-2.jpg"
  },
  {
   "Id": 263,
@@ -2331,7 +2331,7 @@
   "Tipo": "de 1\/2",
   "Precio": 72.59,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA DOBLE 1-2.jpg"
+  "Img": "polietileno\/ESPIGADOBLE1-2.jpg"
  },
  {
   "Id": 264,
@@ -2339,7 +2339,7 @@
   "Tipo": "de 3\/4",
   "Precio": 105.78,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA DOBLE 1-2.jpg"
+  "Img": "polietileno\/ESPIGADOBLE1-2.jpg"
  },
  {
   "Id": 265,
@@ -2347,34 +2347,34 @@
   "Tipo": "de 3\/4 x 1\/2",
   "Precio": 181.69,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA DOBLE 1-2 A 3-4.jpg"
+  "Img": "polietileno\/ESPIGADOBLE1-2A3-4.jpg"
  },
  {
   "Id": 266,
   "Producto": "codo espiga 1\/2",
   "Precio": 142.07,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO DE 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODODE1-2.jpg"
  },
  {
   "Id": 267,
   "Producto": "codo espiga 3\/4",
   "Precio": 209.48,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/ESPIGA CODO DE 1-2.jpg"
+  "Img": "polietileno\/ESPIGACODODE1-2.jpg"
  },
  {
   "Id": 268,
   "Producto": "tee espiga 1\/2",
   "Precio": 197.03,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/TEE ESPIGA 1-2.jpg"
+  "Img": "polietileno\/TEEESPIGA1-2.jpg"
  },
  {
   "Id": 269,
   "Producto": "tee espiga 3\/4",
   "Precio": 335.99,
   "Categoría": "POLIETILENO",
-  "Img": "polietileno\/TEE ESPIGA 3-4.jpg"
+  "Img": "polietileno\/TEEESPIGA3-4.jpg"
  }
 ]

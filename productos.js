@@ -160,6 +160,20 @@ filterButtons.forEach(btn => {
   });
 });
 
+// ✅ BUSCADOR
+const buscador = document.getElementById("buscador");
+buscador.addEventListener("input", () => {
+  const texto = buscador.value.trim().toLowerCase();
+  mostrarProductosBusqueda(texto);
+});
+
+function mostrarProductosBusqueda(texto) {
+  const filtrados = texto === ""
+    ? productos
+    : productos.filter(p => p.Producto.toLowerCase().includes(texto));
+  mostrarProductosFiltrados(filtrados);
+}
+
 // ✅ CARRITO
 function agregarAlCarrito(prod) {
   const existente = carrito.find(p => p.Id === prod.Id);
@@ -284,4 +298,83 @@ function actualizarCarrito() {
     .join("%0A");
 
   btnWpp.href = `https://wa.me/${numeroWpp}?text=Hola!%20Quiero%20pedir:%0A${mensaje}%0A%0ATotal:%20$${total.toFixed(2)}`;
+}
+
+// ✅ FUNCIÓN AUXILIAR PARA MOSTRAR RESULTADOS DEL BUSCADOR
+function mostrarProductosFiltrados(lista) {
+  contenedor.innerHTML = "";
+
+  // Agrupar por nombre igual que en mostrarProductos()
+  const grupos = {};
+  lista.forEach(p => {
+    const nombre = p.Producto.trim().toUpperCase();
+    if (!grupos[nombre]) grupos[nombre] = [];
+    grupos[nombre].push(p);
+  });
+
+  // Reusar la misma lógica de mostrarProductos()
+  Object.values(grupos).forEach(grupo => {
+    const prodBase = grupo[0];
+    const card = document.createElement("div");
+    card.classList.add("col-12", "col-sm-6", "col-lg-3", "mb-4");
+
+    const selectTipos = grupo.map(p =>
+      `<option value="${p.Id}" 
+        data-precio="${p.Precio}" 
+        data-preciounidadxbulto="${p.PrecioUnidadxBulto || ''}" 
+        data-preciototalbulto="${p.PrecioTotalBulto || ''}" 
+        data-unidadesporbulto="${p.UnidadesPorBulto || ''}">
+        ${p.Tipo || "Único tipo"}
+      </option>`
+    ).join("");
+
+    const descripcionHTML = prodBase.Descripción
+      ? `<p class="text-muted small mb-1">${prodBase.Descripción}</p>`
+      : "";
+
+    let precioHTML = "";
+    if (prodBase.PrecioTotalBulto) {
+      precioHTML = `
+        <p class="fw-bold mb-1 text-success">Precio de unidad por bulto: $${prodBase.PrecioUnidadxBulto ? prodBase.PrecioUnidadxBulto.toFixed(2) : "-"}</p>
+        ${prodBase.UnidadesPorBulto ? `<p class="text-muted small mb-2">(Trae ${prodBase.UnidadesPorBulto} unidades por bulto)</p>` : ""}
+        <p class="text-muted small mb-1">Precio por unidad: $${prodBase.Precio.toFixed(2)}</p>
+      `;
+    } else {
+      precioHTML = `<p class="fw-bold mb-2 text-success">Precio: $${prodBase.Precio}</p>`;
+    }
+
+    const esPolvo = prodBase.Categoría?.toLowerCase().includes("polvo");
+
+    card.innerHTML = `
+      <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+        <div class="d-flex align-items-center justify-content-center bg-light" style="height: 180px;">
+          <img src="../img/${prodBase.Img}" class="img-fluid" alt="${prodBase.Producto}" style="max-height:150px; object-fit:contain;">
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title text-truncate fw-semibold mb-2" title="${prodBase.Producto}">
+            ${prodBase.Producto.toUpperCase()}
+          </h5>
+          ${descripcionHTML}
+          <select class="form-select form-select-sm mb-2 tipo-select">${selectTipos}</select>
+          <div class="zona-precio mb-2">${precioHTML}</div>
+
+          ${esPolvo
+        ? `
+              <label class="form-label small mb-1">Cantidad de bultos:</label>
+              <input type="number" min="0" value="0" class="form-control form-control-sm mb-2 cantidad-bultos" placeholder="Bultos">
+              <label class="form-label small mb-1">Cantidad de unidades sueltas:</label>
+              <input type="number" min="0" value="0" class="form-control form-control-sm mb-3 cantidad-unidades" placeholder="Unidades sueltas">
+            `
+        : `<input type="number" min="1" value="1" class="form-control form-control-sm mb-3 cantidad-input" placeholder="Cantidad">`
+      }
+
+          <button class="btn btn-success w-100 mt-auto agregar-carrito">
+            <i class="bi bi-cart-plus"></i> Agregar
+          </button>
+        </div>
+      </div>
+    `;
+
+    contenedor.appendChild(card);
+  });
 }
