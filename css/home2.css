@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* fondo claro neutro */
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+}
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover,
+.navbar .active {
+    color: #ff0000 !important;
+}
+
+/* Sección principal */
+.container img {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.container img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+.section-title {
+    color: #ff0000;
+    font-weight: 700;
+}
+
+/* Cards misión/visión */
+.card {
+    border-radius: 20px;
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Iconos grandes */
+.card div[style*="font-size: 3rem;"] {
+    font-size: 3rem;
+}
+
+/* Frase final */
+blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #ff0000;
+    padding-left: 1rem;
+    margin: 2rem auto;
+}
+
+/* Botón WhatsApp */
+.btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+.btn-success:hover {
+    background-color: #1ebe5d;
+    border-color: #1ebe5d;
+}
